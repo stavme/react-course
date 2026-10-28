@@ -17,3 +17,8 @@ jobs:
                 # cache-dependency-path
             - run: npm install
             - run: npm test
+    deploy-to-prod:
+        needs: smoke-check
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "deployed to prod"
