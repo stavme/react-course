@@ -12,7 +12,7 @@
     "typecheck" : "tsc --noEmit",
     "preview": "vite preview",
     "test" : "vitest --run", 
-    "runjs": "node lessons/examples/javascript-features.js",
+    "runjs": "node lessons/examples/javascript-features.js"
     
   },
   "dependencies": {
