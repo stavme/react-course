@@ -16,6 +16,7 @@ jobs:
                 # cache: 'npm'
                 # cache-dependency-path
             - run: npm install
+            - run: npm run typecheck
             - run: npm test
     deploy-to-prod:
         needs: smoke-check
